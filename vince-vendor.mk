@@ -1027,7 +1027,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/xiaomi/vince/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/vince/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/vince/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
+    vendor/xiaomi/vince/proprietary/fonts/Roboto-Thin.ttf:system/fonts/Roboto-Thin.ttf
 
 PRODUCT_PACKAGES += \
     libMiCameraHal \
